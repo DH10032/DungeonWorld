@@ -1,0 +1,12 @@
+# 클로드 api 설치
+pip install anthropic
+
+# 분류 머신러닝 설치(기본)
+pip install sentence-transformers
+
+# 분류 머신러닝 설치(의존성 포함)
+pip install sentence-transformers torch
+
+pip install scikit-learn
+
+pip install numpy as np
