@@ -217,10 +217,3 @@ class prompt_created:
         self.move_prompt2 = json.loads(self.move_prompt2)
         # print(self.move_prompt2)
         return self.move_prompt2
-    
-# A = ActionClassifier.ActionClassifier()  
-# while True: 
-#     string = input("text : ")
-#     act = A.classify(string, "고블린")
-#     act['res'] = action(act)
-#     print(act)
